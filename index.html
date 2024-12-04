@@ -4,10 +4,293 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/ice-cream-team-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Ice Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-B_SY1GJM.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-CKLNevAY.css">
   </head>
   <body>
+        <!-- Loads the specified .html file -->
+        <header class="header">
+    <div class="container">
+        <a class="logo" href="index.html">
+            <svg class="logo__ice">
+                <use href="/src/img/icons/symbol-defs.svg#icon-logo"></use>
+            </svg>
+        </a>
+        <nav class="header__nav">
+            <div class="header__list__btn">
+                <!-- <input type="checkbox" id="toggle" class="burger__input">
+
+                <label for="toggle" class="burger__label">
+                    <span class="toggle-btn"></span>
+                </label> -->
+                <svg class="header__mobile__menu">
+                    <use href="/src/img/icons/symbol-defs.svg#icon-mobile-menu"></use>
+                </svg>
+
+                <ul class="header__nav__list">
+                    <li class="header__nav__item">
+                        <a href="index.html" class="header__nav__link">Home</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">How it’s made?</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">Our products</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__btn__container">
+                    <button class="header__btn" type="button">Buy now
+                        <svg class="header__btn__arrow">
+                            <use href="/src/img/icons/symbol-defs.svg#icon-arrow-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+        <section class="hero">
+    <div class="container">
+        <h1 class="hero__title">ice cream made with <span class="hero__titile--sized">passion</span></h1>
+        <div class="hero__thumb">
+            <button class="hero__button">Products</button>
+            <a href="#" class="hero__link">How it's made?</a>
+        </div>
+        <div class="hero__nice">
+            <picture>
+                <source srcset="/ice-cream-team-project/assets/tablet-ice-cream-plate-LJJ37D3l.png 1x, /ice-cream-team-project/assets/tablet-ice-cream-plate@2x-DOlFD8Qu.png 2x" media="(min-width:1200px)">
+    
+                <source srcset="/ice-cream-team-project/assets/tablet-ice-cream-plate-LJJ37D3l.png 1x, /ice-cream-team-project/assets/tablet-ice-cream-plate@2x-DOlFD8Qu.png 2x" media="(min-width:768px)">
+                <img src="#" alt="ice cream">
+            </picture>
+            <p class="hero__text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+                unforgettable experience!</p>
+            <svg class="hero__icon">
+                <use href="/ice-cream-team-project/assets/symbol-defs-B_32ekLA.svg"></use>
+            </svg>
+        </div>
+        <picture>
+            <source srcset="/ice-cream-team-project/assets/desktop-ice-cream-smile-DmSC5sTh.png 1x" media="(min-width:1200px)">
+
+            <source srcset="/ice-cream-team-project/assets/tablet-ice-cream-smile-D0K4Y_3I.png 1x, /img/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
+
+            <source srcset="/img/ice-cream-smile/ice-cream-mobile-480.png 1x, /img/ice-cream-smile/ice-cream-mobile-480@2x.png 2x" media="(max-width:767px)">
+            <img class="hero__img" src="#" alt="ice cream">
+        </picture>
+        <ul class="hero__info__list">
+            <li class="hero__info__item">16</li>
+            <p class="hero__info__text">cafes</p>
+            <li class="hero__info__item">23</li>
+            <p class="hero__info__text">food trucks</p>
+        </ul>
+    </div>
+</section>
+        <section class="products">
+    <div class="container">
+        <h3 class="products__sub-title">100% natural</h3>
+        <h2 class="products__title">products</h2>
+        <ul class="products__list">
+            <li class="products__item">
+                <picture class="products__item__img">
+                    <source srcset="/ice-cream-team-project/assets/ice-cream-DEicBdek.png 1x, /ice-cream-team-project/assets/ice-cream@2x-rB9WEyfH.png 2x">
+                    <img src="#" alt="ice cream">
+                </picture>
+                <h4 class="products__item__title">ice cream</h4>
+                <p class="products__item__text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and
+                    natural stabilizer</p>
+                <a class="products__item__link" href="">
+                    <svg class="products__item__svg">
+                        <use href="/ice-cream-team-project/assets/symbol-defs-B_32ekLA.svg#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="products__item">
+                <picture class="products__item__img">
+                    <source srcset="/ice-cream-team-project/assets/ice-coffee-desktop-VDa1v8ve.png 1x, /ice-cream-team-project/assets/ice-coffee-desktop@2x-B_GNYxK_.png 2x" media="(min-width:1200px)">
+
+                    <source srcset="/ice-cream-team-project/assets/ice-coffee-tablet-79mpPbKr.png 1x, /ice-cream-team-project/assets/ice-coffee-tablet@2x-DYp7TDp_.png 2x" media="(min-width:768px)">
+
+                    <source srcset="/ice-cream-team-project/assets/ice-coffee-mobile-BsFoh_lE.png 1x, /ice-cream-team-project/assets/ice-coffee-mobile@2x-CUvigs-Y.png 2x" media="(min-width:480px)">
+
+                    <source srcset="/ice-cream-team-project/assets/ice-coffee-mobile-BsFoh_lE.png 1x, /ice-cream-team-project/assets/ice-coffee-mobile@2x-CUvigs-Y.png 2x" media="(max-width:480px)">
+                    <img src="#" alt="ice coffee">
+                </picture>
+                <h4 class="products__item__title">ice coffee</h4>
+                <p class="products__item__text">Fragrant invigorating drink created from 100% natural ingredients
+                    without the use of preservatives and flavor enhancers</p>
+                <a class="products__item__link" href="">
+                    <svg class="products__item__svg">
+                        <use href="/ice-cream-team-project/assets/symbol-defs-B_32ekLA.svg#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="products__item">
+                <picture class="products__item__img">
+                    <source srcset="/ice-cream-team-project/assets/milkshakes-desktop-CXWFb86-.png 1x, /ice-cream-team-project/assets/milkshakes-desktop@2x-3cUqE4Wa.png 2x" media="(min-width:1200px)">
+
+                    <source srcset="/ice-cream-team-project/assets/milkshakes-tablet-4GS6iM_A.png 1x, /ice-cream-team-project/assets/milkshakes-tablet@2x-C9-ziD1v.png 2x" media="(min-width:768px)">
+
+                    <source srcset="/ice-cream-team-project/assets/milkshakes-mobile-C9ED7lmT.png 1x, /ice-cream-team-project/assets/milkshakes-mobile@2x-DSDl283B.png 2x" media="(min-width:480px)">
+
+                    <source srcset="/ice-cream-team-project/assets/milkshakes-mobile-C9ED7lmT.png 1x, /ice-cream-team-project/assets/milkshakes-mobile@2x-DSDl283B.png 2x" media="(max-width:480px)">
+                    <img src="#" alt="milkshakes">
+                </picture>
+                <h4 class="products__item__title">milkshakes</h4>
+                <p class="products__item__text">Sweet drinks based on milk and ice cream, supplemented with syrups,
+                    fruits, berries and other sweets of your choice</p>
+                    <a class="products__item__link" href="">
+                        <svg class="products__item__svg">
+                            <use href="/ice-cream-team-project/assets/symbol-defs-B_32ekLA.svg#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+            </li>
+        </ul>
+    </div>
+</section>
+        <section class="made">
+    <div class="container">
+        <h3 class="made__sub-title">tradition and love</h3>
+        <h2 class="made__title">how it’s made?</h2>
+        <picture class="made____img">
+            <source srcset="/ice-cream-team-project/assets/cow-B_6DJFSY.jpg 1x, /ice-cream-team-project/assets/cow@2x-CsIn2wK2.jpg 2x">
+            <img src="#" alt="cow">
+        </picture>
+        <p class="made_text_one">Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts. </p>
+        <p class="made_text">We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes. </p>
+        <button class="made_btn">Read more</button>
+        <ul>
+            <li>
+                <svg class="products__item__svg">
+                    <use class="products__item__icon" href=""></use>
+                </svg>
+                <h4>721</h4>
+                <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li>
+                <svg class="products__item__svg">
+                    <use class="products__item__icon" href=""></use>
+                </svg>
+                <h4>16kg</h4>
+                <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li>
+                <svg class="products__item__svg">
+                    <use class="products__item__icon" href=""></use>
+                </svg>
+                <h4>84</h4>
+                <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+        
+        <footer>
+    <div class="container">
+        <ul class="footer__list__address">
+            <li class="footer__address__item">
+                <h4 class="footer__address__title">CAFE</h4>
+                <p class="footer__address__text">Chicago</p>
+                <a href="https://www.google.com.ua/maps/place/10340+Ridgeland+Ave" class="footer__address__link">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
+
+                <p class="footer__address__text">Monday - Friday</p>
+                <p class="footer__address__subtext">06:00 AM - 10:00 PM</p>
+
+                <p class="footer_address__text">Saturday - Sunday</p>
+                <p class="footer__address__subtext">08:00 AM - 16:00 PM</p>
+
+                <p class="footer__address__text">+61(0) 383 766 284</p>
+                <p class="footer__address__text">noreply@envato.com</p>
+            </li>
+
+            <li class="footer__address__item">
+                <h4 class="footer__address__title">FOOD TRUCK</h4>
+                <p class="footer__address__text">Los Angeles</p>
+                <a href="https://www.google.com.ua/maps/search/1003+Manhattan+Ave,+Manhattan+Beach,+CA+90263,+USA" class="footer__address__link">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
+
+                <p class="footer__address__text">Monday - Friday</p>
+                <p class="footer__address__subtext">06:00 AM - 10:00 PM</p>
+
+                <p class="footer__address__text">Saturday - Sunday</p>
+                <p class="footer__address__subtext">08:00 AM - 16:00 PM</p>
+
+                <p class="footer__address__text">+61(0) 383 766 284</p>
+                <p class="footer__address__text">noreply@envato.com</p>
+            </li>
+
+            <li class="footer__address__item">
+                <h4 class="footer__address__title">CAFE</h4>
+                <p class="footer__address__text">New York</p>
+                <a href="https://www.google.com.ua/maps/place/726+Sterling+Pl,+Brooklyn" class="footer__addresslink">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
+
+                <p class="footer__address__text">Monday - Friday</p>
+                <p class="footeraddress__subtext">06:00 AM - 10:00 PM</p>
+
+                <p class="footer__address__text">Saturday - Sunday</p>
+                <p class="footer__address__subtext">08:00 AM - 16:00 PM</p>
+
+                <p class="footer__address__text">+61(0) 383 766 284</p>
+                <p class="footer__address__text">noreply@envato.com</p>
+            </li>
+        </ul>
+
+        <ul class="footer__list__btn">
+            <li class="footer__btn__item">
+                <button class="footer__item__btn" type="button">
+                    <a href="#" class="footer__btn__text">Our Locations</a>
+                    <svg class="footer__btn__arrow">
+                        <use href="/src/img/icons/symbol-defs.svg#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            </li>
+
+            <li class="footer__btn__item">
+                <button class="footer__item__btn" type="button">
+                    <a href="#" class="footer__btn__text">Franchise</a>
+                    <svg class="footer__btn__arrow">
+                        <use href="/src/img/icons/symbol-defs.svg#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            </li>
+        </ul>
+
+        <div class="footer__homemade">
+            <div class="footer__title__container">
+                <h3 class="footer__subtitle">homemade ice cream made </h3>
+                <h2 class="footer__title">with passion</h2>
+            </div>
+
+            <div class="footer__contacts">
+                <ul class="footer__contacts__list">
+                    <li class="footer__contacts__item">
+                        <svg class="footer__contacts__media">
+                            <use hre="/src/img/icons/symbol-defs.svg#icon-github"></use>
+                        </svg>
+                    </li>
+                    <li class="footer__contacts__item">
+                        <svg class="footer__contacts__media">
+                            <use hre="/src/img/icons/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </li>
+                    <li class="footer__contacts__item">
+                        <svg class="footer__contacts__media">
+                            <use hre="/src/img/icons/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </li>
+                </ul>
+                <p class="footer__contacts__text">Feel free to contact <span>+61 (0) 383 766 284</span> </p>
+            </div>
+            <p class="footer__text">© 2022 - IceCream. All Rights Reserved. </p>
+        </div>
+    </div>
+    </footer>
   </body>
 </html>
