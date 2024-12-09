@@ -40,13 +40,14 @@ text-transform: uppercase;
     background: #AEC6A5;
     padding-left: 40px;
     padding-right: 40px;
-    width: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 
 .products__item__img {
-    /* width: 200px;
-height: 200px; */
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -58,7 +59,6 @@ font-size: 20px;
 font-weight: 700;
 letter-spacing: 0.8px;
 text-transform: uppercase;
-width: 100%;
 }
 
 
@@ -70,7 +70,6 @@ font-size: 14px;
 font-weight: 400;
 line-height: 176%;
 letter-spacing: 0.56px;
-width: 100%;
 }
 
 
