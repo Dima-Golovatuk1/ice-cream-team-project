@@ -25,4 +25,15 @@
     .container {
         width: 1200px;
     }
+
+}
+
+:root {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }

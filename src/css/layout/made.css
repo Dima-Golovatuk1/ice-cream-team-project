@@ -1,0 +1,119 @@
+.made {
+    background-color: #84A178;
+}
+
+
+.container {
+}
+
+
+.made__sub-title {
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 61px;
+    margin-bottom: 12px;
+
+}
+
+
+.made__title {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: "Seymour One", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+
+.made__img {
+    width: 278px;
+    height: 278px;
+}
+
+
+.made__thumb {
+}
+
+
+.made__text__one {
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 176%;
+    letter-spacing: 0.48px;
+}
+
+
+.made__text {
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 162%;
+}
+
+
+.made__btn {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 128%;
+    width: 164px;
+    height: 42px;
+    border-radius: 10px;
+    background: #F8D24E;
+}
+
+
+.made__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.made__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.made__item__svg {
+
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    background: #F8D24E;
+}
+
+
+.made__item__icon {}
+
+
+.made__item__title {
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+
+.made__item__text {
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 170%;
+}
