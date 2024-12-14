@@ -1,10 +1,9 @@
 .footer {
-    position: relative;
     background-color: #84A178;
     height: 1570px;
 }
 .footer .container {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: -353px;
 }
@@ -154,6 +153,20 @@
     fill: #84A178;
     background: #F8D24E;
     border-radius: 50%;
+}
+
+.icon-fill {
+    fill: #f8d24e;
+}
+
+.icon-stroke {
+    fill: #84a178;
+    transition: fill var(--animation);
+}
+
+.footer__social-contacts__link:hover .icon-stroke,
+.footer__social-contacts__link:focus .icon-stroke {
+    fill: #ffffff;
 }
 
 .footer__contacts__text {
@@ -338,7 +351,8 @@
     }
     
     .footer__address__link {
-        font-size: 14px;
+        width: 288px;
+        font-size: 16px;
         letter-spacing: 0.56px;
     }
     
