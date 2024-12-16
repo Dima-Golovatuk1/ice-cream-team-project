@@ -1,11 +1,25 @@
 .hero {
     background-color: #84a178;
-    height: 560px;
-    display: block
+    height: 502px;
   }
   
-  
+  .hero .container{
+    position: relative;
+    height: 100%;
+  }
+
   .hero__title {
+    color: #fcfcfc;
+    width: 367px;
+    font-family: 'Seymour One';
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 1.52px;
+    text-transform: uppercase;
+    line-height: 46px;
+  }
+
+  .hero__titile--sized{
     color: #fcfcfc;
     width: 367px;
     font-family: 'Seymour One';
@@ -71,7 +85,12 @@
   }
   
   .hero__img{
-    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    z-index: 1;
+    width: 177px;
+    height: 217px;
   }
   
   .hero__info__list {
