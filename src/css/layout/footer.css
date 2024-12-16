@@ -37,10 +37,6 @@
     margin-bottom: 24px;
 }
 
-/* .food_truck {
-    width: 130px;
-} */
-
 .footer__address__text {
     color: #131313;
     font-size: 12px;
@@ -220,7 +216,10 @@
     }
     
     .footer__address__title {
-        width: 73px;
+        padding-top: 4;
+        padding-bottom: 4px;
+        padding-left: 14px;
+        padding-right: 14px;
         font-size: 16px;
         line-height: 140%;
         letter-spacing: 0.64px;
@@ -335,7 +334,10 @@
     }
     
     .footer__address__title {
-        width: 73px;
+        padding-top: 4;
+        padding-bottom: 4px;
+        padding-left: 14px;
+        padding-right: 14px;
         font-size: 16px;
         line-height: 140%;
         letter-spacing: 0.64px;
