@@ -1,10 +1,17 @@
 .products {
-    background-image: url('/img/products/background/products-background_mobile.png');
+    background-image: url('/img/products/background/background_mobile.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .products {
+        background-image: url('/img/products/background/background_mobile@2x.png');
+    }
 }
 
 
@@ -119,6 +126,18 @@
 
 
 @media screen and (min-width: 768px) {
+    .products {
+        background-image: url('/img/products/background/background_tablet.png');
+    }
+
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .products {
+            background-image: url('/img/products/background/background_tablet@2x.png');
+        }
+    }
+
+
     .products__sub-title {
         font-size: 22px;
     }
@@ -151,6 +170,18 @@
 
 
 @media screen and (min-width: 1200px) {
+    .products {
+        background-image: url('/img/products/background/backgroud_desktop.png');
+    }
+
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .products {
+            background-image: url('/img/products/background/backgroud_desktop@2x.png');
+        }
+    }
+
+
     .products__sub-title {
         font-size: 30px;
     }
