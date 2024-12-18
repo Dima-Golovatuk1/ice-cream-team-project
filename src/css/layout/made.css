@@ -123,11 +123,21 @@ height: 12px;
 }
 
 
+.made__item__svg-background{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #F8D24E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .made__item__svg {
     width: 36px;
     height: 36px;
-    border-radius: 25px;
-    background: #F8D24E;
 }
 
 
@@ -242,9 +252,7 @@ height: 12px;
     }
 
 
-    .made__item__svg {
-        width: 50px;
-        height: 50px;
+    .made__item__svg-background{
         margin-bottom: 32px;
     }
 
@@ -340,9 +348,7 @@ height: 12px;
     }
 
 
-    .made__item__svg {
-        width: 50px;
-        height: 50px;
+    .made__item__svg-background {
         margin-bottom: 40px;
     }
 
