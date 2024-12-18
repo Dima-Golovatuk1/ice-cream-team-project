@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-6Hps70Rs.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-CIp1PVdB.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -84,41 +84,50 @@
     <div class="container">
         <h1 class="hero__title">ice cream made with <span class="hero__titile--sized">passion</span></h1>
         <div class="hero__thumb">
-            <button class="hero__button">Products</button>
+            <a class="hero__products__link">Products</a>
             <a href="#" class="hero__link">How it's made?</a>
         </div>
-        <div class="hero__nice">
-            <picture>
-                <source srcset="/img/ice-cream-plate/desktop-ice-cream-plate.png    1x,
-                                /img/ice-cream-plate/desktop-ice-cream-plate@2x.png 2x" media="(min-width:1200px)">
-    
-                <source srcset="/img/ice-cream-plate/tablet-ice-cream-plate.png    1x,
-                                /img/ice-cream-plate/tablet-ice-cream-plate@2x.png 2x" media="(min-width:768px)">
-                <img src="#" alt="ice cream">
-            </picture>
-            <p class="hero__text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an
-                unforgettable experience!</p>
-            <svg class="hero__icon">
-                <use href="/img/icons/symbol-defs.svg"></use>
-            </svg>
+        <div class="hero__content__image__container">
+            <img class="hero__content__image" src="#" alt="ice cream plate" srcset="/img/hero/ice-cream-plate/desktop-ice-cream-plate.png 1x,
+            /img/hero/ice-cream-plate/desktop-ice-cream-plate@2x.png 2x">
+            <div class="hero__content__thumb">
+                <p class="hero__text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+                    unforgettable experience!</p>
+                <a href="" class="hero__content__link">
+                    <svg class="hero__icon">
+                        <use href="/img/icons/symbol-defs.svg"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="hero__statistics__thumb">
+            <div>
+                <p class="hero__info__number">16</p>
+                <p class="hero__info__text">cafes</p>
+            </div>
+            <div>
+                <p class="hero__info__number">23</p>
+                <p class="hero__info__text">food trucks</p>
+            </div>
         </div>
         <picture>
-            <source srcset="/img/ice-cream-smile/desktop-ice-cream-smile.png    1x,
+            <source srcset="/img/hero/ice-cream-smile/desktop-ice-cream-smile.png    1x,
+            /img/hero/ice-cream-smile/desktop-ice-cream-smile@2x.png  2x
                             " media="(min-width:1200px)">
 
-            <source srcset="/img/ice-cream-smile/tablet-ice-cream-smile.png    1x,
-                            /img/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
+            <source srcset="/img/hero/ice-cream-smile/tablet-ice-cream-smile.png    1x,
+                            /img/hero/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
 
-            <source srcset="/img/ice-cream-smile/ice-cream-mobile-480.png    1x,
-                            /img/ice-cream-smile/ice-cream-mobile-480@2x.png 2x" media="(max-width:767px)">
+            <source srcset="/img/hero/ice-cream-smile/mobile-ice-cream-smile.png    1x,
+                            /img/hero/ice-cream-smile/mobile-ice-cream-smile@2x.png 2x" media="(max-width:767px)">
             <img class="hero__img" src="#" alt="ice cream">
         </picture>
-        <ul class="hero__info__list">
-            <li class="hero__info__item">16</li>
-            <p class="hero__info__text">cafes</p>
-            <li class="hero__info__item">23</li>
-            <p class="hero__info__text">food trucks</p>
-        </ul>
+        <picture>
+            <source srcset="/img/hero/dots/dots-desktop.png" media="(min-width:1200px)">
+            <source srcset="/img/hero/dots/dots-tablet.png" media="(min-width:768px)">
+            <source srcset="/img/hero/dots/dots-mobile.png" media="(max-width:767px)">
+            <img class="hero__dots__img" src="#" alt="dots">
+        </picture>
     </div>
 </section> -->
         <section class="products">
