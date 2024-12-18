@@ -2,45 +2,49 @@
     <div class="container">
         <h1 class="hero__title">ice cream made with <span class="hero__titile--sized">passion</span></h1>
         <div class="hero__thumb">
-            <button class="hero__button">Products</button>
+            <a class="hero__products__link">Products</a>
             <a href="#" class="hero__link">How it's made?</a>
         </div>
-        <div class="hero__nice">
-            <picture>
-                <source srcset="/img/ice-cream-plate/desktop-ice-cream-plate.png    1x,
-                                /img/ice-cream-plate/desktop-ice-cream-plate@2x.png 2x" media="(min-width:1200px)">
-
-                <source srcset="/img/ice-cream-plate/tablet-ice-cream-plate.png    1x,
-                                /img/ice-cream-plate/tablet-ice-cream-plate@2x.png 2x" media="(min-width:768px)">
-                <img src="#" alt="ice cream">
-            </picture>
-            <p class="hero__text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an
-                unforgettable experience!</p>
-            <svg class="hero__icon">
-                <use href="/img/icons/symbol-defs.svg"></use>
-            </svg>
+        <div class="hero__content__image__container">
+            <img class="hero__content__image" src="#" alt="ice cream plate" srcset="/img/hero/ice-cream-plate/desktop-ice-cream-plate.png 1x,
+            /img/hero/ice-cream-plate/desktop-ice-cream-plate@2x.png 2x">
+            <div class="hero__content__thumb">
+                <p class="hero__text">Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+                    unforgettable experience!</p>
+                <a href="" class="hero__content__link">
+                    <svg class="hero__icon">
+                        <use href="/img/icons/symbol-defs.svg"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
-        <picture>
-            <source srcset="/img/ice-cream-smile/desktop-ice-cream-smile.png    1x,
-                            " media="(min-width:1200px)">
-
-            <source srcset="/img/ice-cream-smile/tablet-ice-cream-smile.png    1x,
-                            /img/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
-
-            <source srcset="/img/ice-cream-smile/ice-cream-mobile-480.png    1x,
-                            /img/ice-cream-smile/ice-cream-mobile-480@2x.png 2x" media="(max-width:767px)">
-            <img class="hero__img" src="#" alt="ice cream">
-        </picture>
-        <ul class="hero__info__list">
-            <li class="hero__info__item">
+        <div class="hero__statistics__thumb">
+            <div>
                 <p class="hero__info__number">16</p>
                 <p class="hero__info__text">cafes</p>
-            </li>
-
-            <li class="hero__info__item">
+            </div>
+            <div>
                 <p class="hero__info__number">23</p>
                 <p class="hero__info__text">food trucks</p>
-            </li>
-        </ul>
+            </div>
+        </div>
+        <picture>
+            <source srcset="/img/hero/ice-cream-smile/desktop-ice-cream-smile.png    1x,
+            /img/hero/ice-cream-smile/desktop-ice-cream-smile@2x.png  2x
+                            " media="(min-width:1200px)">
+
+            <source srcset="/img/hero/ice-cream-smile/tablet-ice-cream-smile.png    1x,
+                            /img/hero/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
+
+            <source srcset="/img/hero/ice-cream-smile/mobile-ice-cream-smile.png    1x,
+                            /img/hero/ice-cream-smile/mobile-ice-cream-smile@2x.png 2x" media="(max-width:767px)">
+            <img class="hero__img" src="#" alt="ice cream">
+        </picture>
+        <picture>
+            <source srcset="/img/hero/dots/dots-desktop.png" media="(min-width:1200px)">
+            <source srcset="/img/hero/dots/dots-tablet.png" media="(min-width:768px)">
+            <source srcset="/img/hero/dots/dots-mobile.png" media="(max-width:767px)">
+            <img class="hero__dots__img" src="#" alt="dots">
+        </picture>
     </div>
 </section>

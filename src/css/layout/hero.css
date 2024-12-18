@@ -1,6 +1,7 @@
 .hero {
     background-color: #84a178;
     height: 502px;
+    padding-top: 99px;
   }
   
   .hero .container{
@@ -10,50 +11,53 @@
 
   .hero__title {
     color: #fcfcfc;
-    width: 367px;
+    width: 247px;
     font-family: 'Seymour One';
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 400;
-    letter-spacing: 1.52px;
+    letter-spacing: 1.04px;
     text-transform: uppercase;
-    line-height: 46px;
+    margin-bottom: 32px;
   }
 
   .hero__titile--sized{
-    color: #fcfcfc;
-    width: 367px;
-    font-family: 'Seymour One';
-    font-size: 38px;
-    font-weight: 400;
-    letter-spacing: 1.52px;
-    text-transform: uppercase;
-    line-height: 46px;
+    font-size: 34px;
+    line-height: 96.5%;
   }
   
   .hero__thumb {
     display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
     gap: 12px;
   }
   
-  .hero__button {
-    margin-top: 28px;
-    padding: 12px 34px;
+  .hero__products__link {
     color: #131313;
     text-align: center;
-    font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 128.571%;
-    outline: solid #f8d24e 2px;
-    border-radius: 9px;
+    border: 2px solid #f8d24e;
+    border-radius: 8px;
+    padding: 11px 26px;
+    transition: all 350ms linear;
   }
+
+  .hero__products__link:hover {
+    border: 2px solid #0A8817;
+  }
+
+  .hero__products__link:focus {
+    border: 2px solid #0A8817;
+    color: #fcfcfc;
+  }
+
   .hero__link {
-    margin-top: 28px;
-    padding: 12px 22px;
     color: #f8d24e;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -63,25 +67,12 @@
     text-underline-position: from-font;
   }
   
-  .hero__nice {
+  .hero__content__image__container {
+    display: none;
   }
   
-  .hero__text::before {
-    content: '';
-    display: block;
-    background-image: url('../../img/ice_cream_plate.png');
-    width: 225px;
-  }
-  
-  .hero__text {
-    width: 200px;
-    color: #fff;
-    font-family: 'DM Sans';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 140%;
-  }
-  .hero__icon {
+  .hero__statistics__thumb {
+    display: none;
   }
   
   .hero__img{
@@ -92,10 +83,21 @@
     width: 177px;
     height: 217px;
   }
-  
-  .hero__info__list {
+
+  .hero__dots__img {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
   }
-  .hero__info__item {
+
+@media screen and (min-width: 480px) {
+  .hero__img{
+    right: 60px;
+    width: 218px;
+    height: 267px;
   }
-  .hero__info__text {
+
+  .hero__dots__img {
+
   }
+}
