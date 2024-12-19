@@ -211,7 +211,7 @@
     }
     
     .footer__address__item {
-        width: 170px;
+        width: 224px;
         padding: 40px 32px;
     }
     
@@ -226,7 +226,7 @@
     }
     
     .food_truck {
-        width: 138px;
+        width: auto;
     }
     
     .footer__address__text {
@@ -329,7 +329,7 @@
     }
     
     .footer__address__item {
-        width: 315px;
+        width: 368px;
         padding: 40px 32px;
     }
     
@@ -344,7 +344,7 @@
     }
     
     .food_truck {
-        width: 138px;
+        width: auto;
     }
     
     .footer__address__text {
@@ -353,7 +353,7 @@
     }
     
     .footer__address__link {
-        width: 288px;
+        width:auto;
         font-size: 16px;
         letter-spacing: 0.56px;
     }
