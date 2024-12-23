@@ -176,29 +176,48 @@
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .hero {
     height: 664px;
     padding-top: 118px;
   }
+
   .hero__title {
+    width: 367px;
+    font-size: 38px;
   }
-  .hero__titile--sized {
-  }
+
   .hero__thumb {
+    margin-top: 28px;
   }
+
   .hero__content__image__container {
+    margin-top: 42px;
   }
+  
   .hero__content__image {
+    width: 225px;
+    height: 225px;
   }
+
   .hero__text {
+    padding-top: 67px;
+    width: 200px;
+    color: #fff;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
   }
-  .hero__statistics__thumb {
-  }
+
   .hero__info__number {
+    font-size: 46px;
   }
   .hero__info__text {
+    font-size: 14px;
   }
   .hero__img {
+    height: 560px;
+    width: 456px;
   }
 }
