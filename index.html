@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-D1rc2V7Z.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-j95YQ77b.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -332,20 +332,20 @@
 
         <ul class="footer__list__btn">
             <li class="footer__btn__item">
-                <button class="footer__item__btn" type="button">
-                    Our Locations    >
-                    <!-- <svg class="footer__btn__arrow">
-                        <use href="/img/icons/symbol-defs.svg#icon-arrow-right"></use>
-                    </svg> -->
+                <button class="footer__item__btn" type="button" data-modal-open>
+                    Our Locations
+                    <svg class="footer__btn__arrow">
+                        <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
+                    </svg>
                 </button>
             </li>
 
             <li class="footer__btn__item">
                 <button class="footer__item__btn btn__lower" type="button">
-                    Franchise    >
-                    <!-- <svg class="footer__btn__arrow">
-                        <use href="/img/icons/symbol-defs.svg#icon-arrow-right"></use>
-                    </svg> -->
+                    Franchise
+                    <svg class="footer__btn__arrow">
+                        <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
+                    </svg>
                 </button>
             </li>
         </ul>
@@ -424,6 +424,60 @@
         </div>
     </div>
     </footer>
+
+        <!-- COMPONENTS -->
+        <div class="mobile__menu" data-menu>
+    <a class="mobile__menu__logo" href="/index.html">
+        <svg class="header__logo__ice">
+            <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-logo"></use>
+        </svg>
+    </a>
+    <button class="mobile__menu__close-btn" type="button" data-menu-close>
+        <svg class="mobile__menu__close-svg">
+            <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
+        </svg>
+    </button>
+    <nav class="mobile__nav">
+        <ul class="mobile__nav-list">
+            <li class="mobile__nav-item">
+                <a href="index.html" class="mobile__nav-link">Home</a>
+            </li>
+            <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">How it’s made?</a>
+            </li>
+            <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">Our products</a>
+            </li>
+            <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <button class="mobile__btn" type="button">
+        Buy now
+        <svg class="mobile__btn__arrow">
+            <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
+        </svg>
+    </button>
+</div>
+        <div class="backdrop is-hidden" data-modal>
+<div class="location">
+    <button class="location__close-btn" type="button" data-menu-close>
+        <svg class="location__close-svg">
+            <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
+        </svg>
+    </button>
+  <h3 class="location__title">Our Locations</h3>
+  <iframe class="location__image"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9961.62126051436!2d13.361326758248081!3d38.14683886947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e61b3daa056b%3A0xf1b6f0ea5dfa8e4c!2sVilla%20Costanza!5e0!3m2!1sru!2sua!4v1735145038710!5m2!1sru!2sua"
+    style="border: 0"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+  <button class="location__btn" type="button">Open map</button>
+</div>
+</div>
         <!-- <div class="buynow__modal">
     <h3 class="buynow__title">Buy now</h3>
     <ul class="buynow__list">
