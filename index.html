@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/ice-cream-team-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ice Cream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -12,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-j95YQ77b.css">
+    <link rel="modulepreload" crossorigin href="/ice-cream-team-project/assets/vendor-jOd-NI4E.js">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/vendor-wjhWB3DI.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-a_tLxj34.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -120,13 +123,13 @@
                 <p class="hero__info__text">food trucks</p>
             </div>
         </div>
-        <picture>
+        <picture >
             <source srcset="/ice-cream-team-project/assets/desktop-ice-cream-smile-DmSC5sTh.png 1x, /ice-cream-team-project/assets/desktop-ice-cream-smile@2x-50KnhWUg.png 2x" media="(min-width:1200px)">
 
             <source srcset="/ice-cream-team-project/assets/tablet-ice-cream-smile-D0K4Y_3I.png 1x, /img/hero/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
 
             <source srcset="/ice-cream-team-project/assets/mobile-ice-cream-smile-DrYd6SN0.png 1x, /img/hero/ice-cream-smile/mobile-ice-cream-smile@2x.png 2x" media="(max-width:767px)">
-            <img class="hero__img" src="#" alt="ice cream">
+            <img class="hero__img animate__animated animate__slideInLeft animate__delay-0.5s" src="#" alt="ice cream">
         </picture>
         <picture>
             <source srcset="/ice-cream-team-project/assets/dots-desktop-Dc4LwFcW.png" media="(min-width:1200px)">
@@ -253,21 +256,73 @@
     </div>
 </section>
         <section class="review">
-    <div class="container">
-        <ul class="review__list">
-            <li class="review__item">
-                <img class="review__image" src="" alt="ice cream">
-                <img class="review__person" alt="woman" src="/ice-cream-team-project/assets/review_person-CS_sYuX7.png">
-                <p class="review__text">
-                    I love visiting your cafe.
-                    You prepare the most delicious ice cream in Los Angeles!
-                    In addition, you have beautiful serving, cozy atmosphere and polite staff.
-                </p>
-                <p class="review__place">Emily, Los Angeles</p>
-            </li>
-        </ul>
-    </div>
+  <div class="swiper">
+    <ul class="review__list swiper-wrapper">
+      <li class="review__item swiper-slide">
+        <img
+          class="review__image"
+          src="#"
+          srcset="/ice-cream-team-project/assets/ice_cream_table_desktop-XJUOCWqp.png 1x, /ice-cream-team-project/assets/ice_cream_table_desktop@2x-OkyMTR0v.png 2x"
+          alt="ice cream"
+        />
+        <img
+          class="review__person"
+          alt="woman"
+          src="#"
+          srcset="/ice-cream-team-project/assets/review_person-CS_sYuX7.png 1x, /ice-cream-team-project/assets/review_person@2x-D2ghmD9E.png 2x"
+        />
+        <p class="review__text">
+          I love visiting your cafe. You prepare the most delicious ice cream in
+          Los Angeles! In addition, you have beautiful serving, cozy atmosphere
+          and polite staff.
+        </p>
+        <p class="review__place">Emily, Los Angeles</p>
+      </li>
+      <li class="review__item swiper-slide">
+        <img
+          class="review__image"
+          src="#"
+          srcset="/ice-cream-team-project/assets/ice_cream_table_desktop-XJUOCWqp.png 1x, /ice-cream-team-project/assets/ice_cream_table_desktop@2x-OkyMTR0v.png 2x"
+          alt="ice cream"
+        />
+        <img
+          class="review__person"
+          alt="woman"
+          src="#"
+          srcset="/ice-cream-team-project/assets/review_person-CS_sYuX7.png 1x, /ice-cream-team-project/assets/review_person@2x-D2ghmD9E.png 2x"
+        />
+        <p class="review__text">
+          I love visiting your cafe. You prepare the most delicious ice cream in
+          Los Angeles! In addition, you have beautiful serving, cozy atmosphere
+          and polite staff.
+        </p>
+        <p class="review__place">Emily, Los Angeles</p>
+      </li>
+      <li class="review__item swiper-slide">
+        <img
+          class="review__image"
+          src="#"
+          srcset="/ice-cream-team-project/assets/ice_cream_table_desktop-XJUOCWqp.png 1x, /ice-cream-team-project/assets/ice_cream_table_desktop@2x-OkyMTR0v.png 2x"
+          alt="ice cream"
+        />
+        <img
+          class="review__person"
+          alt="woman"
+          src="#"
+          srcset="/ice-cream-team-project/assets/review_person-CS_sYuX7.png 1x, /ice-cream-team-project/assets/review_person@2x-D2ghmD9E.png 2x"
+        />
+        <p class="review__text">
+          I love visiting your cafe. You prepare the most delicious ice cream in
+          Los Angeles! In addition, you have beautiful serving, cozy atmosphere
+          and polite staff.
+        </p>
+        <p class="review__place">Emily, Los Angeles</p>
+      </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+  </div>
 </section>
+
         <footer class="footer">
     <div class="container">
         <ul class="footer__list__address">
