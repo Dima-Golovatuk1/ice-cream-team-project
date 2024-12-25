@@ -1,29 +1,49 @@
 .review {
-    background-image: url();
+  background-image: url('/img/products/background/background_mobile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 413px;
+}
+
+.swiper{
+  position: relative;
+  top: -32px;
+}
+
+.review__item{
+  padding-bottom: 40px;
 }
 
 .review__image {
-    margin-bottom: 80px;
+  width: 280px;
+  height: 130px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .review__person {
   width: 85px;
   height: 85px;
-  border-radius: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .review__text {
-    width: 280px;
-    height: 256px;
-    padding: 39px 35px;
-    color: #fcfcfc;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 30.6px;
-    border-radius: 10px;
-    background-color: #84a178;
-    margin-bottom: 32px;
+  width: 280px;
+  height: 256px;
+  padding: 39px 35px;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30.6px;
+  border-radius: 10px;
+  background-color: #84a178;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .review__place {
@@ -32,4 +52,66 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 186%; /* 37.2px */
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #d9d9d9;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #84A178;
+}
+
+/* 480px */
+
+@media screen and (min-width: 480px){
+  .review__image {
+    width: 440px;
+    height: 204px;
+  }
+}
+
+/* 768px */
+
+@media screen and (min-width: 768px){
+  .review {
+    background-image: url('/img/products/background/background_tablet.png');
+    padding-bottom: 379px;
+  }
+  
+  .swiper{
+    position: relative;
+    top: -144px;
+  }
+  
+  .review__image {
+    width: 704px;
+    height: 327px;
+    border-radius: 18px;
+    margin-bottom: 100px;
+  }
+  
+  .review__text {
+    width: 705px;
+    height: 138px;
+    padding: 28px 80px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.56px;
+    border-radius: 24px;
+  }
+  
+  .review__place {
+    font-size: 16px;
+  }
+}
+
+/* 1200px */
+
+@media screen and (min-width: 1200px){
+  
 }
