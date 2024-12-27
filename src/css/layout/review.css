@@ -6,12 +6,12 @@
   padding-bottom: 413px;
 }
 
-.swiper{
+.swiper {
   position: relative;
   top: -32px;
 }
 
-.review__item{
+.review__item {
   padding-bottom: 40px;
 }
 
@@ -62,12 +62,12 @@
 }
 
 .swiper .swiper-pagination-bullet-active {
-  background-color: #84A178;
+  background-color: #84a178;
 }
 
 /* 480px */
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
   .review__image {
     width: 440px;
     height: 204px;
@@ -76,24 +76,24 @@
 
 /* 768px */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .review {
     background-image: url('/img/products/background/background_tablet.png');
     padding-bottom: 379px;
   }
-  
-  .swiper{
+
+  .swiper {
     position: relative;
     top: -144px;
   }
-  
+
   .review__image {
     width: 704px;
     height: 327px;
     border-radius: 18px;
     margin-bottom: 100px;
   }
-  
+
   .review__text {
     width: 705px;
     height: 138px;
@@ -104,7 +104,7 @@
     letter-spacing: 0.56px;
     border-radius: 24px;
   }
-  
+
   .review__place {
     font-size: 16px;
   }
@@ -112,6 +112,20 @@
 
 /* 1200px */
 
-@media screen and (min-width: 1200px){
-  
+@media screen and (min-width: 1200px) {
+  .review__image {
+    width: 1013px;
+    height: 422px;
+    border-radius: 24px;
+    margin-bottom: 140px;
+  }
+
+  .review__text {
+    width: 968px;
+    height: 138px;
+    padding: 39px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+  }
 }
