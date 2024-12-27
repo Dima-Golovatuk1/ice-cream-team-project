@@ -21,9 +21,11 @@
 
 
 /* COMPONENTS */
+@import url("./components/backdrop.css");
 @import url("./components/buy-now-modal.css");
 @import url("./components/modal-with-info-about-product.css");
 @import url("./components/read-more-modal.css");
 @import url("./components/our-locations-modal.css");
 @import url("./components/franchise-modal.css");
+
 
