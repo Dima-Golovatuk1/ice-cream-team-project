@@ -1,0 +1,218 @@
+.buynow__modal {
+    padding-top: 100px;
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buynow__menu__close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.buynow__menu__close-svg {
+    fill: #131313;
+    width: 20px;
+    height: 20px;
+}
+
+/* .backdrop.is-hidden .buynow__modal {
+    transform: translate(-50%, -50%) scale(0);
+}
+.buynow__modal {
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    min-width: 450px;
+    min-height: 609px;
+    padding: 40px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--animation);
+} */
+
+.buynow__title {
+    color: #131313;
+    text-align: center;
+    font-family: "Seymour One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 83px;
+}
+
+.buynow__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 82px;
+}
+
+.buynow__item {
+    position: relative;
+    text-align: center;
+    width: 132px;
+    height: 136px;
+    border-radius: 15px;
+    padding: 96px 13px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buynow__item:nth-child(1) {
+    border: 2px solid #96AF8C;
+    transition: all var(--animation);
+}
+
+.buynow__item:nth-child(1):hover,
+.buynow__item:nth-child(1):focus {
+    background-color: #96AF8C;
+}
+
+.buynow__item:nth-child(2) {
+    border: 2px solid #EFD478;
+    transition: all var(--animation);
+}
+.buynow__item:nth-child(2):hover,
+.buynow__item:nth-child(2):focus {
+    background-color: #EFD478;
+}
+
+.buynow__item:nth-child(3) {
+    border: 2px solid #D6936D;
+    transition: all var(--animation);
+}
+
+.buynow__item:nth-child(3):hover,
+.buynow__item:nth-child(3):focus {
+    background-color: #D6936D;
+}
+
+.buynow__item__img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 132px;
+    height: 132px;
+}
+
+.buynow__item__title {
+    color: #131313;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.buynow__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+    margin-top: 31px;
+}
+
+.buynow__input {
+    width: 224px;
+    height: 32px;
+
+    border-radius: 10px;
+    border: 1px solid #84A178;
+    background: rgba(248, 210, 78, 0.10);
+
+    padding: 8px 12px;
+}
+
+.buynow__input:hover,
+.buynow__input:focus {
+    outline: none;
+}
+
+.form__input-comment {
+    width: 224px;
+    height: 65px;
+
+    border-radius: 10px;
+    border: 1px solid #84A178;
+    background: rgba(248, 210, 78, 0.10);
+
+    resize: none;
+
+    padding: 8px 12px;
+}
+.buynow__btn {
+    margin-top: 26px;
+    margin-left: 25%;
+    width: 114px;
+    height: 42px;
+    border-radius: 10px;
+    background: #F8D24E;
+
+    color: #131313;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1200px) {
+    .buynow__title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 103px;
+    }
+
+    .buynow__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .buynow__item {
+        height: 135px;
+        padding: 95px 13px 20px;
+    }
+
+    .buynow__form {
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+    .buynow__input {
+        width: 368px;
+        height: 42px;
+    
+        padding: 11px 16px;
+    }
+
+    .form__input-comment {
+        width: 368px;
+        height: 84px;
+
+        padding: 11px 16px;
+    }
+
+    .buynow__btn {
+        margin-top: 32px;
+        margin-left: 25%;
+        width: 121px;
+        height: 42px;
+        border-radius: 10px;
+        background: #F8D24E;
+    
+        font-size: 14px;
+    }
+}
