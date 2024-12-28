@@ -1,4 +1,17 @@
 .location {
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%) scale(1);
+    min-width: 280px;
+    min-height: 365px;
+    border-radius: 10px;
+    border: 2px solid #F8D24E;  
+    background: #FCFCFC;
+    padding-bottom: 28px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +63,11 @@
 /*  TABLET*/
 
 @media screen and (min-width: 1200px) {
+    .location {
+        min-width: 568px;
+        min-height: 458px;
+        padding-bottom: 32px;
+    }
     
     .location__close-svg {
         width: 24px;
