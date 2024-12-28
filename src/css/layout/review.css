@@ -5,6 +5,14 @@
   background-repeat: no-repeat;
   padding-bottom: 413px;
 }
+@media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .review {
+      background-image: url('/img/products/background/background_mobile@2x.png');
+    }
+  }
 
 .swiper {
   position: relative;
@@ -81,6 +89,14 @@
     background-image: url('/img/products/background/background_tablet.png');
     padding-bottom: 379px;
   }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .review {
+      background-image: url('/img/products/background/background_tablet@2x.png');
+    }
+  }
 
   .swiper {
     position: relative;
@@ -113,6 +129,24 @@
 /* 1200px */
 
 @media screen and (min-width: 1200px) {
+  .review {
+    background-image: url('/img/products/background/background_desktop.png');
+    padding-bottom: 228px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .review {
+      background-image: url('/img/products/background/background_desktop@2x.png');
+    }
+  }
+
+  .swiper{
+    position: relative;
+    top: -100px;
+  }
+
   .review__image {
     width: 1013px;
     height: 422px;
@@ -123,9 +157,11 @@
   .review__text {
     width: 968px;
     height: 138px;
-    padding: 39px 35px;
+    padding: 43px 109px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.64px;
   }
+
+
 }
