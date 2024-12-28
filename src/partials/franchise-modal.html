@@ -1,20 +1,26 @@
-<section class="franchise__modal">
-    <h2 class="franchise__title">Thank you for your interest in owning an Ice Cream shop</h2>
-    <p class="franchise__text">
-        Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this
-        time. Once the application process resumes, we will contact you for further information. Please fill out the
-        contact information below and we will reach out for additional information. We appreciate your patience.
-    </p>
-    <form class="franchise__form">
-        <label class="franchise__label" for="name"></label>
-        <input class="franchise__input" type="name" id="name" placeholder="Name" required>
+<div class="backdrop">
+    <div class="franchise__modal">
+        <button class="modal__button__close">
+            <svg class="modal__button__close__icon">
+                <use></use>
+            </svg>
+        </button>
+        <h2 class="franchise__title">Thank you for your interest in owning an Ice Cream shop</h2>
+        <p class="franchise__text">
+            Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this
+            time. Once the application process resumes, we will contact you for further information. Please fill out the
+            contact information below and we will reach out for additional information. We appreciate your patience.
+        </p>
+        <form class="franchise__form">
+            <input class="franchise__input" type="name" id="name" placeholder="Name" required>
+    
+            <input class="franchise__input" type="tel" id="tel" placeholder="Phone" required>
 
-        <label class="franchise__label" for="tel"></label>
-        <input class="franchise__input" type="tel" id="tel" placeholder="Phone" required>
-
-        <label class="franchise__label-comment" for="textarea"></label>
-        <textarea class="form__input-comment" type="text" id="textarea" placeholder="Comment" required></textarea>
-
-        <button class="franchise__btn" type="submit">Submit</button>
-    </form>
-</section>
+            <input class="franchise__input" type="email" id="email" placeholder="Email" required>
+    
+            <textarea class="form__input-comment" type="text" id="textarea" placeholder="Comment" rows="3" required></textarea>
+    
+            <button class="franchise__btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
