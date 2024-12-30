@@ -1,8 +1,21 @@
-.backdrop {
-    
-}
-
 .franchise__modal {
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%) scale(1);
+    min-width: 280px;
+    min-height: 365px;
+    border-radius: 10px;
+    border: 2px solid #F8D24E;  
+    background: #FCFCFC;
+    padding-bottom: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal__button__close {
