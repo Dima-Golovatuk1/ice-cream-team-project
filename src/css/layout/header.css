@@ -87,6 +87,7 @@
         fill: #000;
         width: 12px;
         height: 12px;
+        transition: all var(--animation);
     }
 
     .header__btn:hover,
