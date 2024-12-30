@@ -15,7 +15,7 @@
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
     <link rel="modulepreload" crossorigin href="/ice-cream-team-project/assets/vendor-jOd-NI4E.js">
     <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-BqLntUAE.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-BiAWV-Iq.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -386,7 +386,7 @@
 
         <ul class="footer__list__btn">
             <li class="footer__btn__item">
-                <button class="footer__item__btn" type="button" data-modal-open>
+                <button class="footer__item__btn" type="button">
                     Our Locations
                     <svg class="footer__btn__arrow">
                         <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
@@ -514,9 +514,9 @@
         </svg>
     </button>
 </div>
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop is-hidden">
 <div class="location">
-    <button class="location__close-btn" type="button" data-menu-close>
+    <button class="location__close-btn" type="button">
         <svg class="location__close-svg">
             <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
         </svg>
@@ -532,7 +532,8 @@
   <button class="location__btn" type="button">Open map</button>
 </div>
 </div>
-        <div class="buynow__modal is-hidden">
+        <div class="backdrop is-hidden">
+<div class="buynow__modal">
     <button class="buynow__menu__close-btn" type="button" data-menu-close>
         <svg class="buynow__menu__close-svg">
             <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
@@ -561,17 +562,15 @@
     </ul>
 
     <form class="buynow__form">
-        <label for="name" class="buynow__label"></label>
         <input class="buynow__input" type="name" id="name" placeholder="Name" required>
 
-        <label class="buynow__label" for="tel"></label>
         <input class="buynow__input" type="tel" id="tel" placeholder="Phone" required>
 
-        <label class="buynow__label-comment" for="textarea"></label>
         <textarea class="form__input-comment" type="text" id="textarea" placeholder="Comment" required></textarea>
 
         <button class="buynow__btn" type="submit">Submit</button>
     </form>
+</div>
 </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
