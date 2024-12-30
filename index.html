@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
     <link rel="modulepreload" crossorigin href="/ice-cream-team-project/assets/vendor-jOd-NI4E.js">
     <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-BiAWV-Iq.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-B0S8rQv8.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -386,7 +386,7 @@
 
         <ul class="footer__list__btn">
             <li class="footer__btn__item">
-                <button class="footer__item__btn" type="button">
+                <button class="footer__item__btn" data-modal="locations-modal" type="button">
                     Our Locations
                     <svg class="footer__btn__arrow">
                         <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
@@ -395,7 +395,7 @@
             </li>
 
             <li class="footer__btn__item">
-                <button class="footer__item__btn btn__lower" type="button">
+                <button class="footer__item__btn btn__lower"  data-modal="franchise-modal" type="button">
                     Franchise
                     <svg class="footer__btn__arrow">
                         <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
@@ -514,23 +514,47 @@
         </svg>
     </button>
 </div>
-        <div class="backdrop is-hidden">
-<div class="location">
-    <button class="location__close-btn" type="button">
-        <svg class="location__close-svg">
-            <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
-        </svg>
+        <div class="backdrop is-hidden" id="locations-modal">
+  <div class="location">
+    <button class="modal__button-close close-button">
+      <!-- <svg class="modal__button-close__icon">
+        <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+    </svg> -->
+      x
     </button>
-  <h3 class="location__title">Our Locations</h3>
-  <iframe class="location__image"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9961.62126051436!2d13.361326758248081!3d38.14683886947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e61b3daa056b%3A0xf1b6f0ea5dfa8e4c!2sVilla%20Costanza!5e0!3m2!1sru!2sua!4v1735145038710!5m2!1sru!2sua"
-    style="border: 0"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
-  <button class="location__btn" type="button">Open map</button>
+    <h3 class="location__title">Our Locations</h3>
+    <iframe class="location__image"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9961.62126051436!2d13.361326758248081!3d38.14683886947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e61b3daa056b%3A0xf1b6f0ea5dfa8e4c!2sVilla%20Costanza!5e0!3m2!1sru!2sua!4v1735145038710!5m2!1sru!2sua"
+      style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <button class="location__btn" type="button">Open map</button>
+  </div>
 </div>
+        <div class="backdrop is-hidden" id="franchise-modal">
+    <div class="franchise__modal">
+        <button class="modal__button-close close-button">
+            <!-- <svg class="modal__button-close__icon">
+                <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+            </svg> -->
+            X
+        </button>
+        <h2 class="franchise__title">Thank you for your interest in owning an Ice Cream shop</h2>
+        <p class="franchise__text">
+            Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this
+            time. Once the application process resumes, we will contact you for further information. Please fill out the
+            contact information below and we will reach out for additional information. We appreciate your patience.
+        </p>
+        <form class="franchise__form">
+            <input class="franchise__input" type="name" id="name" placeholder="Name" required>
+    
+            <input class="franchise__input" type="tel" id="tel" placeholder="Phone" required>
+
+            <input class="franchise__input" type="email" id="email" placeholder="Email" required>
+    
+            <textarea class="form__input-comment" type="text" id="textarea" placeholder="Comment" rows="3" required></textarea>
+    
+            <button class="franchise__btn" type="submit">Submit</button>
+        </form>
+    </div>
 </div>
         <div class="backdrop is-hidden">
 <div class="buynow__modal">
