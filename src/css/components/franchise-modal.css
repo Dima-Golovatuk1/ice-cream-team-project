@@ -1,16 +1,22 @@
 .franchise__modal {
-  position: fixed;
-  z-index: 1000;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 280px;
-  min-height: 674px;
-  border-radius: 10px;
-  border: 2px solid #f8d24e;
-  background: #fcfcfc;
-  padding: 28px;
-  transition: transform var(--animation);
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%) scale(1);
+    min-width: 280px;
+    min-height: 365px;
+    border-radius: 10px;
+    border: 2px solid #F8D24E;  
+    background: #FCFCFC;
+    padding-bottom: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .modal__button__close {
