@@ -4,7 +4,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  min-width: 280px;
+  width: 280px;
   min-height: 674px;
   border-radius: 10px;
   border: 2px solid #f8d24e;
@@ -59,10 +59,12 @@
   border-radius: 10px;
   border: 1px solid #84a178;
   background: rgba(248, 210, 78, 0.1);
-  padding: 8px 12px;
+  padding-left: 12px;
 }
 
 .form__input-comment {
+  width: 224px;
+  padding-left: 12px;
 }
 
 .franchise__btn {
@@ -76,7 +78,6 @@
   flex-shrink: 0;
   color: #131313;
   text-align: center;
-  font-family: Montserrat;
   font-size: 12px;
   font-weight: 600;
   border-radius: 10px;
