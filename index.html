@@ -15,7 +15,7 @@
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
     <link rel="modulepreload" crossorigin href="/ice-cream-team-project/assets/vendor-jOd-NI4E.js">
     <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-CgBiaE3Z.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-DbK4m6fc.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -44,13 +44,13 @@
         </nav>
 
         <div class="header__btn__container">
-            <button class="header__burger__btn" type="button" data-modal="buy__now-modal">
+            <button class="header__burger__btn" type="button">
                 <svg class="header__burger__icon">
                     <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-mobile-menu"></use>
                 </svg>
             </button>
 
-            <button class="header__btn" type="button">
+            <button class="header__btn" type="button"  data-modal="buy__now-modal">
                 Buy now
                 <svg class="header__btn__arrow">
                     <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-arrow-right"></use>
@@ -593,14 +593,18 @@
   <div class="location">
     <button class="modal__button-close close-button">
       <svg class="modal__button-close__icon">
-        <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+        <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
     </svg>
     </button>
     <h3 class="location__title">Our Locations</h3>
     <iframe class="location__image"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9961.62126051436!2d13.361326758248081!3d38.14683886947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e61b3daa056b%3A0xf1b6f0ea5dfa8e4c!2sVilla%20Costanza!5e0!3m2!1sru!2sua!4v1735145038710!5m2!1sru!2sua"
       style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <button class="location__btn" type="button">Open map</button>
+    
+      
+      <a href="https://maps.app.goo.gl/EkWALQQh8DG3KMzk7" class="location__link">
+        <button class="location__btn" type="button">Open map</button>
+      </a>
   </div>
 </div>
         <div class="backdrop is-hidden" id="franchise-modal">
@@ -632,8 +636,8 @@
 </div>
         <div class="backdrop is-hidden" id="buy__now-modal">
 <div class="buynow__modal">
-    <button class="buynow__menu__close-btn close-button" type="button" data-menu-close>
-        <svg class="buynow__menu__close-svg">
+    <button class="modal__button-close close-button" type="button" data-menu-close>
+        <svg class="modal__button-close__icon">
             <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
         </svg>
     </button>
