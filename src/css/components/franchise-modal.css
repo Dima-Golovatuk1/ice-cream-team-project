@@ -1,22 +1,19 @@
 .franchise__modal {
-    position: fixed;
-    z-index: 1000;
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-50%, -50%) scale(1);
-    min-width: 280px;
-    min-height: 365px;
-    border-radius: 10px;
-    border: 2px solid #F8D24E;  
-    background: #FCFCFC;
-    padding-bottom: 28px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 280px;
+  height: 674px;
+  border-radius: 10px;
+  border: 2px solid #f8d24e;
+  background: #fcfcfc;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal__button__close {
@@ -32,7 +29,6 @@
 }
 
 .franchise__title {
-  right: 0;
   color: #131313;
   text-align: center;
   font-family: 'Seymour One';
@@ -90,4 +86,60 @@
   background: #f8d24e;
   margin-top: 28px;
   padding: 12px 34px;
+}
+
+@media screen and (min-width: 1200px) {
+  .franchise__modal {
+    width: 568px;
+    height: 668px;
+    padding: 60px 32px;  
+  }
+
+  .franchise__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 322px;
+    height: 84px;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+
+  .franchise__text{
+    width: 448px;
+    margin-bottom: 32px;
+  }
+
+  .franchise__input {
+    width: 368px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid #84a178;
+    background: rgba(248, 210, 78, 0.1);
+    padding-left: 12px;
+  }
+
+  .form__input-comment{
+    width: 368px;
+  }
+
+  .franchise__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 121px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #131313;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #f8d24e;
+    margin-top: 28px;
+    padding: 12px 34px;
+  }
 }
