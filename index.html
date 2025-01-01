@@ -15,7 +15,7 @@
     <script type="module" crossorigin src="/ice-cream-team-project/index.js"></script>
     <link rel="modulepreload" crossorigin href="/ice-cream-team-project/assets/vendor-jOd-NI4E.js">
     <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/vendor-wjhWB3DI.css">
-    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-DBQb19nW.css">
+    <link rel="stylesheet" crossorigin href="/ice-cream-team-project/assets/index-CgBiaE3Z.css">
   </head>
   <body>
         <!-- Loads the specified .html file -->
@@ -123,12 +123,12 @@
                 <p class="hero__info__text">food trucks</p>
             </div>
         </div>
-        <picture >
+        <picture>
             <source srcset="/ice-cream-team-project/assets/desktop-ice-cream-smile-DmSC5sTh.png 1x, /ice-cream-team-project/assets/desktop-ice-cream-smile@2x-50KnhWUg.png 2x" media="(min-width:1200px)">
 
             <source srcset="/ice-cream-team-project/assets/tablet-ice-cream-smile-D0K4Y_3I.png 1x, /img/hero/ice-cream-smile/tablet-ice-cream-smile@2x.png 2x" media="(min-width:768px)">
 
-            <source srcset="/ice-cream-team-project/assets/mobile-ice-cream-smile-DrYd6SN0.png 1x, /img/hero/ice-cream-smile/mobile-ice-cream-smile@2x.png 2x" media="(max-width:767px)">
+            <source srcset="/ice-cream-team-project/assets/mobile-ice-cream-smile-DrYd6SN0.png 1x, /ice-cream-team-project/assets/mobile-ice-cream-smile@2x-ChMyeRC4.png 2x" media="(max-width:767px)">
             <img class="hero__img animate__animated animate__slideInLeft animate__delay-0.5s" src="#" alt="ice cream">
         </picture>
         <picture>
@@ -364,7 +364,7 @@
           class="review__person"
           alt="man"
           src="#"
-          srcset="/img/review/review_person2.png 1x, /ice-cream-team-project/assets/review_person2@2x-CPKsl4Mn.png 2x"
+          srcset="/ice-cream-team-project/assets/review_person2-BbpKadpO.png 1x, /ice-cream-team-project/assets/review_person2@2x-CPKsl4Mn.png 2x"
         />
         <p class="review__text">
           Every day we come to you with friends after classes in college. We
@@ -605,11 +605,11 @@
 </div>
         <div class="backdrop is-hidden" id="franchise-modal">
     <div class="franchise__modal">
-        <button class="modal__button-close close-button">
-            <!-- <svg class="modal__button-close__icon">
-                <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
-            </svg> -->
-            X
+        <button class="modal__button__close close-button">
+            <svg class="modal__button__close__icon">
+                <use href="../img/icons/symbol-defs.svg#icon-close"></use>
+            </svg>
+
         </button>
         <h2 class="franchise__title">Thank you for your interest in owning an Ice Cream shop</h2>
         <p class="franchise__text">
@@ -670,6 +670,34 @@
     </form>
 </div>
 </div>
+        <div class="backdrop is-hidden" id="franchise-modal">
+    <div class="franchise__modal">
+        <button class="modal__button__close close-button">
+            <svg class="modal__button__close__icon">
+                <use href="../img/icons/symbol-defs.svg#icon-close"></use>
+            </svg>
+
+        </button>
+        <h2 class="franchise__title">Thank you for your interest in owning an Ice Cream shop</h2>
+        <p class="franchise__text">
+            Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this
+            time. Once the application process resumes, we will contact you for further information. Please fill out the
+            contact information below and we will reach out for additional information. We appreciate your patience.
+        </p>
+        <form class="franchise__form">
+            <input class="franchise__input" type="name" id="name" placeholder="Name" required>
+    
+            <input class="franchise__input" type="tel" id="tel" placeholder="Phone" required>
+
+            <input class="franchise__input" type="email" id="email" placeholder="Email" required>
+    
+            <textarea class="form__input-comment" type="text" id="textarea" placeholder="Comment" rows="3" required></textarea>
+    
+            <button class="franchise__btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
