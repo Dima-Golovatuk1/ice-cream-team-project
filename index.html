@@ -44,7 +44,7 @@
         </nav>
 
         <div class="header__btn__container">
-            <button class="header__burger__btn" type="button" data-menu-button>
+            <button class="header__burger__btn" type="button" data-modal="buy__now-modal">
                 <svg class="header__burger__icon">
                     <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-mobile-menu"></use>
                 </svg>
@@ -517,10 +517,9 @@
         <div class="backdrop is-hidden" id="locations-modal">
   <div class="location">
     <button class="modal__button-close close-button">
-      <!-- <svg class="modal__button-close__icon">
+      <svg class="modal__button-close__icon">
         <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
-    </svg> -->
-      x
+    </svg>
     </button>
     <h3 class="location__title">Our Locations</h3>
     <iframe class="location__image"
@@ -556,9 +555,9 @@
         </form>
     </div>
 </div>
-        <div class="backdrop is-hidden">
+        <div class="backdrop is-hidden" id="buy__now-modal">
 <div class="buynow__modal">
-    <button class="buynow__menu__close-btn" type="button" data-menu-close>
+    <button class="buynow__menu__close-btn close-button" type="button" data-menu-close>
         <svg class="buynow__menu__close-svg">
             <use href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
         </svg>
