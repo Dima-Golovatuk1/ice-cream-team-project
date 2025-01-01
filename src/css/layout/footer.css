@@ -105,16 +105,43 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 128%;
+    transition: all var(--animation);
+}
+
+.footer__item__btn:hover,
+.footer__item__btn:focus {
+    background-color: #0A8817;
+}
+
+.footer__item__btn:focus {
+    color: #FFF;
+}
+
+.footer__item__btn:focus .footer__btn__arrow {
+    fill: #FFF;
 }
 
 .btn__lower {
     background-color: transparent;
     border: 2px solid #F8D24E;
+    transition: all var(--animation);
+}
+
+.btn__lower:hover,
+.btn__lower:focus {
+    background-color: transparent;
+    border: 2px solid #0A8817;
+}
+
+.btn__lower:focus {
+    background-color: transparent;
+    color: #FFFFFF;
 }
 
 .footer__btn__arrow {
     width: 12px;
     height: 12px;
+    transition: all var(--animation);
 }
 
 .footer__homemade {
@@ -152,9 +179,6 @@
 .footer__contacts__item {
     width: 34px;
     height: 34px;
-    fill: #84A178;
-    background: #F8D24E;
-    border-radius: 50%;
 }
 
 .icon-fill {
@@ -297,9 +321,6 @@
     .footer__contacts__item {
         width: 34px;
         height: 34px;
-        fill: #84A178;
-        background: #F8D24E;
-        border-radius: 50%;
     }
     
     .footer__contacts__text {
@@ -418,9 +439,6 @@
     .footer__contacts__item {
         width: 34px;
         height: 34px;
-        fill: #84A178;
-        background: #F8D24E;
-        border-radius: 50%;
     }
     
     .footer__contacts__text {
