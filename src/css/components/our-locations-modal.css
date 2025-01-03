@@ -18,13 +18,13 @@
     align-items: center;
 }
 
-.location__close-btn {
+.modal__button-close {
     position: absolute;
     top: 12px;
     right: 12px;
 }
 
-.location__close-svg {
+.modal__button-close__icon {
     fill: #131313;
     width: 20px;
     height: 20px;
@@ -69,7 +69,7 @@
         padding-bottom: 32px;
     }
     
-    .location__close-svg {
+    .modal__button-close__icon {
         width: 24px;
         height: 24px;
     }
