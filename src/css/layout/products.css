@@ -172,13 +172,13 @@
 
 @media screen and (min-width: 1200px) {
     .products {
-        background-image: url('/img/products/background/backgroud_desktop.png');
+        background-image: url('/img/products/background/background_desktop.png');
     }
 
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         .products {
-            background-image: url('/img/products/background/backgroud_desktop@2x.png');
+            background-image: url('/img/products/background/background_desktop@2x.png');
         }
     }
 
