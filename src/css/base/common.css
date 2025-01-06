@@ -16,12 +16,15 @@ html {
 
 
 .modal__button__close{
-    width: 20px;
-    height: 20px;
-    fill: #131313;
     position: absolute;
     right: 12px;
     top: 12px;
+}
+
+.modal__button__close__icon{
+    width: 20px;
+    height: 20px;
+    fill: #131313;
 }
 
 
@@ -31,7 +34,7 @@ html {
     }
 
 
-    .modal__button__close{
+    .modal__button__close__icon{
         width: 24px;
         height: 24px;
     }
