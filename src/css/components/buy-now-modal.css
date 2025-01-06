@@ -19,18 +19,6 @@
     align-items: center;
 }
 
-.modal__button-close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-}
-
-.modal__button-close__icon {
-    fill: #131313;
-    width: 20px;
-    height: 20px;
-}
-
 
 .buynow__title {
     color: #131313;
