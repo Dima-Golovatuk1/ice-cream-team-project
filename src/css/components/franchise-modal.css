@@ -16,17 +16,6 @@
   align-items: center;
 }
 
-.modal__button__close {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-}
-
-.modal__button__close__icon {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-}
 
 .franchise__title {
   color: #131313;
