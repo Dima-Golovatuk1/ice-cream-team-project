@@ -1,40 +1,23 @@
 .buynow__modal {
-    padding-top: 100px;
-    padding-bottom: 64px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%) scale(1);
+    min-width: 280px;
+    min-height: 991px;
+    border-radius: 10px;
+    border: 2px solid #F8D24E;  
+    background: #FCFCFC;
+    padding-bottom: 29px;
+    
+    transition: transform var(--animation);
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.buynow__menu__close-btn {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-}
-.buynow__menu__close-svg {
-    fill: #131313;
-    width: 20px;
-    height: 20px;
-}
-
-/* .backdrop.is-hidden .buynow__modal {
-    transform: translate(-50%, -50%) scale(0);
-}
-.buynow__modal {
-    position: absolute;
-    top: 23%;
-    left: 25%;
-    min-width: 450px;
-    min-height: 609px;
-    padding: 40px;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform var(--animation);
-} */
 
 .buynow__title {
     color: #131313;
@@ -44,6 +27,7 @@
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 83px;
+    margin-top: 28px;
 }
 
 .buynow__list {
@@ -170,15 +154,23 @@
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
+    .buynow__modal {
+        min-width: 568px;
+        min-height: 644px;
+        padding-bottom: 32px;
+    }
+
     .buynow__title {
         font-size: 20px;
         line-height: 28px;
+        margin-top: 32px;
         margin-bottom: 103px;
     }
 
     .buynow__list {
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 32px;
     }
 
     .buynow__item {
@@ -207,11 +199,9 @@
 
     .buynow__btn {
         margin-top: 32px;
-        margin-left: 25%;
+        margin-left: 35%;
         width: 121px;
         height: 42px;
-        border-radius: 10px;
-        background: #F8D24E;
     
         font-size: 14px;
     }
