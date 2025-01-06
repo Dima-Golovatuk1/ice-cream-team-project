@@ -19,6 +19,7 @@
   "dependencies": {
     "modern-normalize": "^3.0.1",
     "swiper": "^11.1.15",
+    "v": "^0.3.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
