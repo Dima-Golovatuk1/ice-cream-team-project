@@ -19,6 +19,7 @@
     align-items: center;
 }
 
+
 .buynow__title {
     color: #131313;
     text-align: center;
@@ -165,6 +166,11 @@
         line-height: 28px;
         margin-top: 32px;
         margin-bottom: 103px;
+    }
+    
+    .modal__button-close__icon {
+        width: 24px;
+        height: 24px;
     }
 
     .buynow__list {

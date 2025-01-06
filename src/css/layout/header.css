@@ -1,11 +1,12 @@
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 12;
     background-color: #84A178;
     padding-top: 12px;
+    scroll-behavior: smooth;
 }
 
 .header .container {
