@@ -99,6 +99,18 @@
     height: 42px;
     border-radius: 10px;
     background: #F8D24E;
+    transition: all var(--animation);
+}
+
+
+.made__btn:hover,
+.made__btn:focus{
+background: #0A8817;
+}
+
+
+.made__btn:focus{
+    color: #FCFCFC;
 }
 
 
@@ -107,6 +119,10 @@
 height: 12px;
 }
 
+
+.made__btn:focus .made__btn__svg{
+    fill: #FCFCFC;
+}
 
 .made__list {
     display: flex;
