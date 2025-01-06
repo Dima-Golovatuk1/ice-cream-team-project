@@ -215,7 +215,7 @@
 
 /* DESKTOP */
 
-@media screen and (min-width: 12000px) {
+@media screen and (min-width: 1200px) {
     .buynow__modal {
         min-width: 568px;
         min-height: 644px;
