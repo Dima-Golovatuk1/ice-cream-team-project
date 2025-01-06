@@ -8,9 +8,25 @@
 }
 
 
+.modal__button__close{
+    width: 20px;
+    height: 20px;
+    fill: #131313;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+    }
+
+
+    .modal__button__close{
+        width: 24px;
+        height: 24px;
     }
 }
 
