@@ -98,8 +98,8 @@
     <div class="container">
         <h1 class="hero__title">ice cream made with <span class="hero__titile--sized">passion</span></h1>
         <div class="hero__thumb">
-            <a class="hero__products__link">Products</a>
-            <a href="#" class="hero__link">How it's made?</a>
+            <button class="hero__products__link" type="button" data-modal="info-about-product-modal">Products</button>
+            <a href="#how_made" class="hero__link">How it's made?</a>
         </div>
         <div class="hero__content__image__container">
             <img class="hero__content__image" src="#" alt="ice cream plate" srcset="/ice-cream-team-project/assets/desktop-ice-cream-plate-LJJ37D3l.png 1x, /ice-cream-team-project/assets/desktop-ice-cream-plate@2x-DOlFD8Qu.png 2x">
@@ -533,14 +533,14 @@
       </a>
   </div>
 </div>
-        <div class="backdrop is-hidden" id="info-about-product-modal" >
+        <div class="backdrop is-hidden" id="info-about-product-modal">
     <div class="info-about-product__modal">
-        <button class="close-button info-about-product__button">
-            <svg class="">
-                <use class="made__item__icon" href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
+        <button class="modal__button__close close-button">
+            <svg class="modal__button__close__icon">
+                <use href="/img/icons/symbol__defs.svg#icon-close"></use>
             </svg>
         </button>
-        <h2 class="info-about-product__title">Chololate 
+        <h2 class="info-about-product__title">Chololate
             icecream</h2>
         <img class="info-about-product__img" srcset="/ice-cream-team-project/assets/icecream-C4p9Pp_i.png 1x, img/made/icecream.png@2x.png 2x" src="/ice-cream-team-project/assets/icecream-C4p9Pp_i.png" alt="icecream">
         <ul class="info-about-product__list">
@@ -602,7 +602,8 @@
 
             <input class="info-about-product__form__phone" type="text" name="Phone" placeholder="Phone">
 
-            <textarea class="info-about-product__form__comment" name="Comment" id="" cols="30" rows="4" placeholder="Comment"></textarea>
+            <textarea class="info-about-product__form__comment" name="Comment" id="" cols="30" rows="4"
+                placeholder="Comment"></textarea>
 
             <button class="info-about-product__form__btn">Submit</button>
         </form>
@@ -694,14 +695,14 @@
     </form>
 </div>
 </div>
-        <div class="backdrop is-hidden" id="info-about-product-modal" >
+        <div class="backdrop is-hidden" id="info-about-product-modal">
     <div class="info-about-product__modal">
-        <button class="close-button info-about-product__button">
-            <svg class="">
-                <use class="made__item__icon" href="/ice-cream-team-project/assets/symbol-defs-B6F2geMI.svg#icon-close"></use>
+        <button class="modal__button__close close-button">
+            <svg class="modal__button__close__icon">
+                <use href="/img/icons/symbol__defs.svg#icon-close"></use>
             </svg>
         </button>
-        <h2 class="info-about-product__title">Chololate 
+        <h2 class="info-about-product__title">Chololate
             icecream</h2>
         <img class="info-about-product__img" srcset="/ice-cream-team-project/assets/icecream-C4p9Pp_i.png 1x, img/made/icecream.png@2x.png 2x" src="/ice-cream-team-project/assets/icecream-C4p9Pp_i.png" alt="icecream">
         <ul class="info-about-product__list">
@@ -763,7 +764,8 @@
 
             <input class="info-about-product__form__phone" type="text" name="Phone" placeholder="Phone">
 
-            <textarea class="info-about-product__form__comment" name="Comment" id="" cols="30" rows="4" placeholder="Comment"></textarea>
+            <textarea class="info-about-product__form__comment" name="Comment" id="" cols="30" rows="4"
+                placeholder="Comment"></textarea>
 
             <button class="info-about-product__form__btn">Submit</button>
         </form>
