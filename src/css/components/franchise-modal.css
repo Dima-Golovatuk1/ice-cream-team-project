@@ -53,9 +53,14 @@
   padding-left: 12px;
 }
 
-.form__input-comment {
+.franchise__input__comment {
   width: 224px;
-  padding-left: 12px;
+  padding: 8px 12px;
+  border-radius: 10px;
+border: 1px solid #84A178;
+background: rgba(248, 210, 78, 0.10);
+resize: none;
+
 }
 
 .franchise__btn {
@@ -77,10 +82,9 @@
   padding: 12px 34px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .franchise__modal {
     width: 568px;
-    height: 668px;
     padding: 60px 32px;  
   }
 
@@ -109,7 +113,7 @@
     padding-left: 12px;
   }
 
-  .form__input-comment{
+  .franchise__input__comment{
     width: 368px;
   }
 

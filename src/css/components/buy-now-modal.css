@@ -5,13 +5,13 @@
     top: 50%;
 
     transform: translate(-50%, -50%) scale(1);
-    min-width: 280px;
-    min-height: 991px;
+    width: 280px;
+    height: 90vh;
     border-radius: 10px;
     border: 2px solid #F8D24E;  
     background: #FCFCFC;
     padding-bottom: 29px;
-    
+    overflow-y: auto;
     transition: transform var(--animation);
 
     display: flex;
@@ -155,67 +155,6 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    .buynow__modal {
-        min-width: 568px;
-        min-height: 644px;
-        padding-bottom: 32px;
-    }
-
-    .buynow__title {
-        font-size: 20px;
-        line-height: 28px;
-        margin-top: 32px;
-        margin-bottom: 103px;
-    }
-    
-    .modal__button-close__icon {
-        width: 24px;
-        height: 24px;
-    }
-
-    .buynow__list {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 32px;
-    }
-
-    .buynow__item {
-        height: 135px;
-        padding: 95px 13px 20px;
-    }
-
-    .buynow__form {
-        gap: 16px;
-        margin-top: 40px;
-    }
-
-    .buynow__input {
-        width: 368px;
-        height: 42px;
-    
-        padding: 11px 16px;
-    }
-
-    .form__input-comment {
-        width: 368px;
-        height: 84px;
-
-        padding: 11px 16px;
-    }
-
-    .buynow__btn {
-        margin-top: 32px;
-        margin-left: 35%;
-        width: 121px;
-        height: 42px;
-    
-        font-size: 14px;
-    }
-}
-
-/* DESKTOP */
-
-@media screen and (min-width: 1200px) {
     .buynow__modal {
         min-width: 568px;
         min-height: 644px;
